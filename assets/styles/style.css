@@ -18,6 +18,44 @@ img{
     color: white;
     border: none;
 }
+
+/* animation
+/*  */
+@keyframes banner-animation{
+    0%{
+        opacity:0;
+        transform:translateX(-20x)
+        
+
+    }
+    50%{
+        opacity:0.5
+        transform:translateX( -10x)
+
+    }
+    100%{
+        opacity: 1;
+        transform:translateX(0px)
+
+    }
+}
+@keyframes banner-player-animation{
+    0%{
+        opacity:0.5;
+        transform:translateX(20x)
+
+    }
+    50%{
+        opacity:0.7;
+        transform:translateX(10x)
+
+    }
+    100%{
+        opacity: 1;
+        transform:translateX(0px)
+
+    }
+}
 .banner{
     display: flex;
     align-items: center;
@@ -25,6 +63,7 @@ img{
     color: white;
     margin: 50px auto;
     border-radius: 15px;
+    animation: banner-animation 0.7s ease-out forwards;
 }
 .banner-left{
     padding: 45px;
@@ -48,6 +87,7 @@ img{
 }
 .banner-right img{
     display: block;
+    animation: banner-player-animation 1s ease-in infinite;
 }
 /* uncomming matches  */
 
