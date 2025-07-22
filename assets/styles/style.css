@@ -124,6 +124,7 @@ color: #161616;
     .upcoming-matches{
         flex-direction: column;
     }
+    
     .upcoming-matches-left {
         flex-direction: row;
         width: 100%;
@@ -143,6 +144,10 @@ color: #161616;
 
 /* lapton or tab */
 @media (max-width:768px){
+    .container{
+   margin: 0 30px;
+}
+    
     .banner{
         flex-direction: column;
         text-align: center;
@@ -161,4 +166,11 @@ color: #161616;
        font-size: 40px;
 
     }
+    .upcoming-matches-right{
+        grid-template-columns: repeat(1, 1fr)
+    }
+     .container{
+   margin: 0 30px;
+}
+
 }
