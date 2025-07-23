@@ -56,7 +56,32 @@ img{
 
     }
 }
+/* nav bar  */
+nav{
+    background-color: black;
+    padding: 15px 0;
+    font-family: 600;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    justify-content: center;
+
+}
+nav ul a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+nav ul a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+
 .banner{
+
     display: flex;
     align-items: center;
     background-color: black;
